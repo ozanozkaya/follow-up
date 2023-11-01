@@ -59,3 +59,72 @@ input[type="text"] {
   font-weight: bold;
   text-align: center;
 }
+
+.date-filter {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  margin-right: 20px;
+}
+
+.preset-button {
+  background-color: #f8f9fa;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-right: 0.5rem; /* Space between buttons */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.preset-button:hover {
+  background-color: #e2e6ea;
+}
+
+/* Styling the DatePicker input field */
+.react-datepicker__input-container input {
+  width: 35%;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-right: 0.5rem; /* Adjust the margin as per your design */
+}
+
+/* Adjusting the width of the DatePicker to match other input fields */
+.date-filter {
+  width: 200px; /* You can adjust this value as per your design needs */
+}
+
+/* Styling the dropdown of the DatePicker */
+.react-datepicker-popper {
+  font-size: 1rem;
+}
+
+/* Styling the navigation bar inside the DatePicker dropdown */
+.react-datepicker__navigation {
+  top: 1rem;
+  line-height: 1.7rem;
+  border: none;
+}
+
+/* Styling the month container inside the DatePicker dropdown */
+.react-datepicker__month-container {
+  float: none;
+}
